@@ -1,0 +1,566 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+body{
+ 
+ 
+
+}
+
+/* NAV bar ----------------------------------------------*/
+
+
+.nav-1{
+  position:fixed;
+}
+
+.nav-body{
+   
+    background-color:#e2e2e2;
+    
+    
+}
+.gd{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.navbar1{
+
+   background-color: #e2e2e2;
+    padding-right: 6%;
+    padding-left: 5%;
+    padding-top:2%;
+    margin: auto;
+    font-size: medium;
+    border:  2px solid none;
+
+}
+
+.button1{
+    background-color: black;
+    outline-color: black;
+    border-radius: 15px;
+    width: 100px;
+    margin: 4px;
+}
+/* NAV bar end -----------------------------------------------------*/
+
+
+/* section2 image title ------------------------------------------------ */
+.bgc{
+  background-color: #ebedf0;
+}
+.hello{
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: #6b6b6b;
+}
+
+.name-h2{
+  color: #000000;
+  font-size: 80px;
+} 
+
+.get-but{
+  
+}
+.text-center{
+font-size: 30px;
+ font-family: "Raleway", sans-serif;;
+
+}
+
+.img-fluid {
+  width: 90%;
+  padding-top: 5%;
+  margin-left: 4%;
+  height: auto;
+}
+ /* section2 image title END ------------------------------------------------ */ 
+
+
+  /* section3 pra start ------------------------------------------------ */
+
+
+  .section-3{
+ 
+  margin-top: 8%;
+  font-size: 14px;
+  
+}
+  
+
+
+/* section3 pra END ------------------------------------------------ */
+
+
+
+
+/* section2 portfolio Start ------------------------------------------------ */
+
+/* #section4{
+  /* background-color:#f6f9fc;   */
+  background-color:#e9eaeb;
+    height: 9vh;
+    /* padding: auto; */
+} */
+
+
+.portfolio{
+  text-align: center;
+
+   /* overflow: auto;  */
+  
+}
+ .h1{
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  padding-top: 2%;
+  color:#797979
+}
+
+.h2{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  
+}
+
+
+
+
+
+
+/* Image co*/
+
+.image-gallery{
+  width: 70%;
+  margin: 20px auto ;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+ 
+  
+}
+
+
+.image-gallery img{ 
+  width: 90%;
+  cursor: pointer;
+ 
+
+}
+
+
+
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio{
+  
+ 
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  margin: 0 15px 15px 0;
+  display: inline-block;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: px;
+  transition: all 0.3s ease-in-out;
+}
+ /* section2 portfolio END ------------------------------------------------ */
+
+
+
+
+
+
+
+
+ /* section5 Our Team ------------------------------------------------ */
+ 
+
+
+
+ .team-par{
+  text-align: center;
+  
+ }
+ .team-par .h1{
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  padding-top: 20%;
+  color:#797979
+ }
+
+ .team-par .h2{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  
+}
+ .team-photo{
+  width: 70%;
+  margin: 100px;
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+ gap: 10px;
+ margin-top: 20%;
+
+}
+.team-photo img{ 
+  width: 30%;
+  height: auto;
+ border-radius: 10px;
+ padding-bottom: 20%;
+
+}
+
+/* section Our Team end ------------------------------------------------ */
+
+
+
+
+
+/* section6 design tool ------------------------------------------------ */
+
+#section6{
+  background-color: #e7eaee;
+  height: 40vh;
+}
+
+.container-tool{
+background-color: #ebe5e5;
+height: 50vh;
+}
+
+
+
+.tool-1{
+  text-align: center;
+  
+}
+
+.tool-1.h1{
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  padding-top: 2%;
+  color:#797979
+
+}
+
+.tool-1 .h2{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+ .tool-image img{
+ width: 30%;
+ height: auto;
+ margin: 100px auto  ;
+ margin-top: 2%;
+}
+
+
+
+
+/* section6 design tool END ------------------------------------------------ */
+
+
+
+
+/* footer------------------------------------------------- */
+
+
+#footer {
+  background: #fff;
+  padding: 0 0 30px 0;
+  color: #ffffff;
+  font-size: 14px;
+  background: #5e6272;
+}
+
+
+
+#footer .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px 4px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #202229;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #dfdfdf;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #bebebe;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #3d3d3d;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #6b6b6b;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  text-align: center;
+  float: left;
+}
+
+#footer .credits {
+  float: right;
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+}
+/* ==================================== */
+
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 35px auto;
+  list-style: none;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272829;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #149ddd;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(20, 157, 221, 0.75);
+  transition: 0.3s;
+  width: 50%;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: rgba(14, 37, 48, 0.95);
+}
+
+.portfolio .portfolio-wrap .portfolio-links a+a {
+  border-left: 1px solid #37b3ed;
+}
+
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+  opacity: 1;
+  border: 1px solid #15516d;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #042a3b;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
